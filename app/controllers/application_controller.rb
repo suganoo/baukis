@@ -18,6 +18,6 @@ class ApplicationController < ActionController::Base
 
   def rescue500(e)
     @exception = e
-    render 'error/internal_server_error', status: 500
+    render 'errors/internal_server_error', status: 500
   end
 end
