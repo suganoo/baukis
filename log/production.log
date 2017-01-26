@@ -1,0 +1,136 @@
+I, [2017-01-26T06:41:58.570389 #29282]  INFO -- : Started GET "/staff" for 10.0.2.2 at 2017-01-26 06:41:58 +0000
+I, [2017-01-26T06:41:58.604978 #29282]  INFO -- : Processing by Staff::TopController#index as HTML
+I, [2017-01-26T06:41:58.702039 #29282]  INFO -- :   Rendered staff/top/index.html.erb within layouts/staff (0.8ms)
+I, [2017-01-26T06:41:58.734434 #29282]  INFO -- :   Rendered shared/_header.html.erb (0.5ms)
+I, [2017-01-26T06:41:58.752700 #29282]  INFO -- :   Rendered shared/_footer.html.erb (0.4ms)
+I, [2017-01-26T06:41:58.753183 #29282]  INFO -- : Completed 200 OK in 148ms (Views: 127.5ms | ActiveRecord: 0.0ms)
+I, [2017-01-26T07:19:50.905929 #29302]  INFO -- : Started GET "/adin" for 10.0.2.2 at 2017-01-26 07:19:50 +0000
+F, [2017-01-26T07:19:50.927406 #29302] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/adin"):
+  actionpack (4.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.5) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.0) lib/rails/engine.rb:514:in `call'
+  railties (4.1.0) lib/rails/application.rb:144:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  /opt/rubies/ruby-2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /opt/rubies/ruby-2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /opt/rubies/ruby-2.1.0/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+I, [2017-01-26T07:19:54.861777 #29302]  INFO -- : Started GET "/adimin" for 10.0.2.2 at 2017-01-26 07:19:54 +0000
+F, [2017-01-26T07:19:54.862995 #29302] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/adimin"):
+  actionpack (4.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.5) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.0) lib/rails/engine.rb:514:in `call'
+  railties (4.1.0) lib/rails/application.rb:144:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  /opt/rubies/ruby-2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /opt/rubies/ruby-2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /opt/rubies/ruby-2.1.0/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+I, [2017-01-26T07:20:04.267287 #29302]  INFO -- : Started GET "/admin" for 10.0.2.2 at 2017-01-26 07:20:04 +0000
+I, [2017-01-26T07:20:04.269232 #29302]  INFO -- : Processing by Admin::TopController#index as HTML
+I, [2017-01-26T07:20:04.674037 #29302]  INFO -- : Completed 500 Internal Server Error in 404ms
+F, [2017-01-26T07:20:04.675691 #29302] FATAL -- : 
+ActionView::MissingTemplate (Missing template layouts/admin with {:locale=>[:ja], :formats=>[:html], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/vagrant/baukis/app/views"
+):
+  app/controllers/admin/top_controller.rb:3:in `index'
+
+
+I, [2017-01-26T07:20:16.795387 #29302]  INFO -- : Started GET "/customer" for 10.0.2.2 at 2017-01-26 07:20:16 +0000
+I, [2017-01-26T07:20:16.798199 #29302]  INFO -- : Processing by Customer::TopController#index as HTML
+I, [2017-01-26T07:20:17.071392 #29302]  INFO -- : Completed 500 Internal Server Error in 273ms
+F, [2017-01-26T07:20:17.074414 #29302] FATAL -- : 
+ActionView::MissingTemplate (Missing template layouts/customer with {:locale=>[:ja], :formats=>[:html], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/vagrant/baukis/app/views"
+):
+  app/controllers/customer/top_controller.rb:3:in `index'
+
+
+I, [2017-01-26T07:20:29.897273 #29302]  INFO -- : Started GET "/staff" for 10.0.2.2 at 2017-01-26 07:20:29 +0000
+I, [2017-01-26T07:20:29.900467 #29302]  INFO -- : Processing by Staff::TopController#index as HTML
+I, [2017-01-26T07:20:29.980273 #29302]  INFO -- :   Rendered staff/top/index.html.erb within layouts/staff (0.9ms)
+I, [2017-01-26T07:20:30.003708 #29302]  INFO -- :   Rendered shared/_header.html.erb (0.4ms)
+I, [2017-01-26T07:20:30.021657 #29302]  INFO -- :   Rendered shared/_footer.html.erb (0.5ms)
+I, [2017-01-26T07:20:30.022219 #29302]  INFO -- : Completed 200 OK in 121ms (Views: 120.8ms | ActiveRecord: 0.0ms)
+I, [2017-01-26T07:40:57.869514 #29407]  INFO -- : Started GET "/staff" for 10.0.2.2 at 2017-01-26 07:40:57 +0000
+I, [2017-01-26T07:40:57.889787 #29407]  INFO -- : Processing by Staff::TopController#index as HTML
+I, [2017-01-26T07:40:57.955195 #29407]  INFO -- :   Rendered staff/top/index.html.erb within layouts/staff (0.6ms)
+I, [2017-01-26T07:40:57.986133 #29407]  INFO -- :   Rendered shared/_header.html.erb (0.6ms)
+I, [2017-01-26T07:40:58.009673 #29407]  INFO -- :   Rendered shared/_footer.html.erb (0.3ms)
+I, [2017-01-26T07:40:58.010194 #29407]  INFO -- : Completed 200 OK in 120ms (Views: 104.4ms | ActiveRecord: 0.0ms)
+I, [2017-01-26T07:41:02.625137 #29407]  INFO -- : Started GET "/admin" for 10.0.2.2 at 2017-01-26 07:41:02 +0000
+I, [2017-01-26T07:41:02.627038 #29407]  INFO -- : Processing by Admin::TopController#index as HTML
+I, [2017-01-26T07:41:02.673083 #29407]  INFO -- :   Rendered admin/top/index.html.erb within layouts/admin (0.6ms)
+I, [2017-01-26T07:41:02.674579 #29407]  INFO -- :   Rendered shared/_header.html.erb (0.0ms)
+I, [2017-01-26T07:41:02.675153 #29407]  INFO -- :   Rendered shared/_footer.html.erb (0.0ms)
+I, [2017-01-26T07:41:02.675458 #29407]  INFO -- : Completed 200 OK in 48ms (Views: 47.3ms | ActiveRecord: 0.0ms)
+I, [2017-01-26T07:41:11.716114 #29407]  INFO -- : Started GET "/customer" for 10.0.2.2 at 2017-01-26 07:41:11 +0000
+I, [2017-01-26T07:41:11.718328 #29407]  INFO -- : Processing by Customer::TopController#index as HTML
+I, [2017-01-26T07:41:11.771791 #29407]  INFO -- :   Rendered customer/top/index.html.erb within layouts/customer (0.5ms)
+I, [2017-01-26T07:41:11.772942 #29407]  INFO -- :   Rendered shared/_header.html.erb (0.0ms)
+I, [2017-01-26T07:41:11.773049 #29407]  INFO -- :   Rendered shared/_footer.html.erb (0.0ms)
+I, [2017-01-26T07:41:11.773397 #29407]  INFO -- : Completed 200 OK in 55ms (Views: 54.3ms | ActiveRecord: 0.0ms)
+I, [2017-01-26T07:41:18.171003 #29407]  INFO -- : Started GET "/staff" for 10.0.2.2 at 2017-01-26 07:41:18 +0000
+I, [2017-01-26T07:41:18.171940 #29407]  INFO -- : Processing by Staff::TopController#index as HTML
+I, [2017-01-26T07:41:18.173673 #29407]  INFO -- :   Rendered staff/top/index.html.erb within layouts/staff (0.1ms)
+I, [2017-01-26T07:41:18.174493 #29407]  INFO -- :   Rendered shared/_header.html.erb (0.0ms)
+I, [2017-01-26T07:41:18.174813 #29407]  INFO -- :   Rendered shared/_footer.html.erb (0.0ms)
+I, [2017-01-26T07:41:18.175056 #29407]  INFO -- : Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.0ms)
+I, [2017-01-26T07:44:16.354960 #29436]  INFO -- : Started GET "/admin" for 10.0.2.2 at 2017-01-26 07:44:16 +0000
+I, [2017-01-26T07:44:16.373207 #29436]  INFO -- : Processing by Admin::TopController#index as HTML
+I, [2017-01-26T07:44:16.439089 #29436]  INFO -- :   Rendered admin/top/index.html.erb within layouts/admin (0.8ms)
+I, [2017-01-26T07:44:16.464875 #29436]  INFO -- :   Rendered shared/_header.html.erb (0.6ms)
+I, [2017-01-26T07:44:16.504437 #29436]  INFO -- :   Rendered shared/_footer.html.erb (0.4ms)
+I, [2017-01-26T07:44:16.504853 #29436]  INFO -- : Completed 200 OK in 131ms (Views: 113.3ms | ActiveRecord: 0.0ms)
+I, [2017-01-26T07:44:23.495917 #29436]  INFO -- : Started GET "/customer" for 10.0.2.2 at 2017-01-26 07:44:23 +0000
+I, [2017-01-26T07:44:23.497932 #29436]  INFO -- : Processing by Customer::TopController#index as HTML
+I, [2017-01-26T07:44:23.574402 #29436]  INFO -- :   Rendered customer/top/index.html.erb within layouts/customer (0.5ms)
+I, [2017-01-26T07:44:23.575338 #29436]  INFO -- :   Rendered shared/_header.html.erb (0.0ms)
+I, [2017-01-26T07:44:23.575670 #29436]  INFO -- :   Rendered shared/_footer.html.erb (0.0ms)
+I, [2017-01-26T07:44:23.576046 #29436]  INFO -- : Completed 200 OK in 78ms (Views: 77.8ms | ActiveRecord: 0.0ms)
+I, [2017-01-26T07:44:31.534884 #29436]  INFO -- : Started GET "/staff" for 10.0.2.2 at 2017-01-26 07:44:31 +0000
+I, [2017-01-26T07:44:31.536858 #29436]  INFO -- : Processing by Staff::TopController#index as HTML
+I, [2017-01-26T07:44:31.584195 #29436]  INFO -- :   Rendered staff/top/index.html.erb within layouts/staff (0.6ms)
+I, [2017-01-26T07:44:31.586237 #29436]  INFO -- :   Rendered shared/_header.html.erb (0.1ms)
+I, [2017-01-26T07:44:31.586992 #29436]  INFO -- :   Rendered shared/_footer.html.erb (0.1ms)
+I, [2017-01-26T07:44:31.587347 #29436]  INFO -- : Completed 200 OK in 50ms (Views: 49.2ms | ActiveRecord: 0.0ms)
+I, [2017-01-26T07:47:23.815708 #29462]  INFO -- : Started GET "/staff" for 10.0.2.2 at 2017-01-26 07:47:23 +0000
+I, [2017-01-26T07:47:23.912556 #29462]  INFO -- : Processing by Staff::TopController#index as HTML
+I, [2017-01-26T07:47:23.928632 #29462]  INFO -- : Completed 500 Internal Server Error in 15ms
+F, [2017-01-26T07:47:23.929922 #29462] FATAL -- : 
+RuntimeError ():
+  app/controllers/staff/top_controller.rb:3:in `index'
+
+
