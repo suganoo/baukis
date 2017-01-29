@@ -20,7 +20,7 @@ group :test do
   gem 'spring-commands-rspec', '~> 1.0.1'
   gem 'capybara', '~> 2.2.1'
   gem 'factory_girl_rails', '~> 4.4.1'
-  gem 'database_cleaner', '~> 1.2.0'
+#  gem 'database_cleaner', '~> 1.2.0'
 end
 
 gem 'rails_12factor'
@@ -43,3 +43,4 @@ gem 'rails_12factor'
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
+gem 'rake', '< 11.0' 
