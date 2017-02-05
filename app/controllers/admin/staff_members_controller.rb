@@ -19,7 +19,7 @@ class Admin::StaffMembersController < Admin::Base
   def create
     @staff_member = StaffMember.new(params[:staff_member])
     if @staff_member.save
-      flash.notice = 'EˆõƒAƒJƒEƒ“ƒg‚ðV‹K“o˜^‚µ‚Ü‚µ‚½B'
+      flash.notice = 'è·å“¡ã‚¢ã‚«ã‚¦ãƒ³ãƒˆã‚’æ–°è¦ç™»éŒ²ã—ã¾ã—ãŸã€‚'
       redirect_to :admin_staff_members
     else
       render action: 'new'
@@ -30,7 +30,7 @@ class Admin::StaffMembersController < Admin::Base
     @staff_member = StaffMember.find(params[:id])
     @staff_member.assign_attributes(params[:staff_member])
     if @staff_member.save
-      flash.notice = 'EˆõƒAƒJƒEƒ“ƒg‚ðXV‚µ‚Ü‚µ‚½B'
+      flash.notice = 'è·å“¡ã‚¢ã‚«ã‚¦ãƒ³ãƒˆã‚’æ›´æ–°ã—ã¾ã—ãŸã€‚'
       redirect_to :admin_staff_members
     else
       render action: 'edit'
@@ -40,7 +40,7 @@ class Admin::StaffMembersController < Admin::Base
   def destroy
     staff_member = StaffMember.find(params[:id])
     staff_member.destroy!
-    flash.notice = 'EˆõƒAƒJƒEƒ“ƒg‚ðíœ‚µ‚Ü‚µ‚½B'
+    flash.notice = 'è·å“¡ã‚¢ã‚«ã‚¦ãƒ³ãƒˆã‚’å‰Šé™¤ã—ã¾ã—ãŸã€‚'
     redirect_to :admin_staff_members
   end
 end
