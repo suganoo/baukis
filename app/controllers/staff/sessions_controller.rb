@@ -15,17 +15,17 @@ class Staff::SessionsController < Staff::Base
     end
     if Staff::Authenticator.new(staff_member).authenticate(@form.password)
       session[:staff_member_id] = staff_member.id
-      flash.notice = 'ƒƒOƒCƒ“‚µ‚Ü‚µ‚½B'
+      flash.notice = 'ãƒ­ã‚°ã‚¤ãƒ³ã—ã¾ã—ãŸã€‚'
       redirect_to :staff_root
     else
-      flash.now.alert = 'ƒ[ƒ‹ƒAƒhƒŒƒX‚Ü‚½‚ÍƒpƒXƒ[ƒh‚ª³‚µ‚­‚ ‚è‚Ü‚¹‚ñB'
+      flash.now.alert = 'ãƒ¡ãƒ¼ãƒ«ã‚¢ãƒ‰ãƒ¬ã‚¹ã¾ãŸã¯ãƒ‘ã‚¹ãƒ¯ãƒ¼ãƒ‰ãŒæ­£ã—ãã‚ã‚Šã¾ã›ã‚“ã€‚'
       render action: 'new'
     end
   end
 
   def destroy
     session.delete(:staff_member_id)
-    flash.notice = 'ƒƒOƒAƒEƒg‚µ‚Ü‚µ‚½B'
+    flash.notice = 'ãƒ­ã‚°ã‚¢ã‚¦ãƒˆã—ã¾ã—ãŸã€‚'
     redirect_to :staff_root
   end
 end
